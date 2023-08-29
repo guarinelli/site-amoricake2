@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html{
+    background-color: #f3f3f3;
+}
+
+/* PARTE 1 */
+nav{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid #e57b72;
+    width: 100%;
+    height: 10vh;
+    background-color: #ffffff;
+    z-index: 99;
+}
+
+.parte1-1{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding-left: 3rem;
+}
+
+.parte1-2{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.parte1-2 ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.parte1-2-2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #e57b72;
+    text-decoration: none;
+}
+
+.parte1-2-2:hover{
+    text-decoration: underline;
+}
+
+/* PARTE 2 */
+.parte2{
+    padding-top: 10vh;
+    width: 100%;
+    height: 90vh;
+}
+
+.parte2-3{
+    width: 100%;
+    height: 85vh;
+    background-image: url(/img/capa.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.capa-seta{
+    width: 100%;
+    height: 10vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0.5rem;
+    margin-top: 1rem;
+}
+.seta{
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    position: absolute;
+    animation-name: seta;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+/* PARTE 3 */
+.parte3{
+    width: 100%;
+    margin-top: 5vh;
+}
+
+.parte3-1{
+    display: flex;
+}
+
+.parte3-1-1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5rem 0 5rem 0;
+    
+}
+
+.parte3-1-1 p {
+    width: 500px;
+    text-align: justify;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 1rem 0 1rem 0;
+    color: #e57b72;
+}
+
+.parte3-1-2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* PARTE 4 */
+.parte4{
+    width: 100%;
+    display: flex;
+}
+
+.parte4-1{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    background-attachment: fixed;
+}
+
+.parte4-1-1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.parte4-1-2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.parte4-1-2 h1{
+    font-family: 'Barriecito', cursive;
+    font-size: 50px;
+    font-weight: 400;
+    color: #e57b72;
+}
+
+.parte4-1-2 h2{
+    margin-top: 3rem;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #e57b72;
+}
+
+.parte4-1-2-3 button{
+    width: 300px;
+    height: 50px;
+    border: 1px solid  #6aa9d6;
+    border-radius: 5rem;
+    background-color:  #6aa9d6;
+}
+
+.parte4-1-2-3 button:hover{
+    background-color:  white;
+}
+
+.parte4-1-2-3 p{
+    color:  white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.parte4-1-2-3 p:hover{ 
+    color:  #6aa9d6;
+}
+
+/* PARTE 5 */
+.parte5{
+    margin-top: 5rem;
+    width: 100%;
+    height: 70vh;
+    background-image: url(/img/fundo1.jpg);    
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    height: 450px;
+    width: 700px;
+    overflow: hidden;
+    position: relative;
+}
+
+.slides{
+    display: flex;
+    width: 500%;
+    height: 100%; 
+}
+
+.slide {
+    width: 20%;
+    transition: .6s; 
+}
+
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+
+.navigation{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+}
+
+.bar{
+    width: 70px;
+    height: 17px;
+    border: 2px solid white;
+    margin: 6px;
+    cursor: pointer;
+    transition: 0.6s;
+    background-color: white;
+}
+
+.bar:hover{
+    background-color: rgba(109, 157, 235, 0.732);
+}
+
+input{
+    display: none;
+}
+
+#slide1:checked ~ .s1 {
+    margin-left: 0;
+}
+
+#slide2:checked ~ .s1 {
+    margin-left: -20%;
+}
+
+#slide3:checked ~ .s1 {
+    margin-left: -40%;
+}
+
+#slide4:checked ~ .s1 {
+    margin-left: -60%;
+}
+
+#slide5:checked ~ .s1 {
+    margin-left: -80%;
+}
