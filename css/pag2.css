@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html {
+  background-color: #f3f3f3;
+}
+
+/* PARTE 1 */
+nav {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 2px solid #e57b72;
+  width: 100%;
+  height: 10vh;
+  background-color: #ffffff;
+  z-index: 99;
+}
+
+.parte1-1 {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  padding-left: 3rem;
+}
+
+.parte1-2 {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.parte1-2 ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+
+.parte1-2-2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #e57b72;
+  text-decoration: none;
+}
+
+.parte1-2-2:hover {
+  text-decoration: underline;
+}
+
+
+/* MAIN */
+
+.principal {
+  padding: 10rem;
+}
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4);
+}
+
+.imgGaleria {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.itemGaleria {
+  overflow: hidden;
+}
+
+.item01 {
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 4;
+}
+
+.item03 {
+  grid-column: 3 / span 1;
+  grid-row: 1 / span 2;
+}
+
+.item02 {
+  grid-column: 3 / span 1;
+  grid-row: 3 / span 1;
+}
+
+/* FOOTER */
+.parte9 {
+  border-top: 1px solid #e57b72;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.parte9-1 {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.parte9-1-1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #e57b72;
+}
+
+/* PARTE 10 */
+.parte10 {
+  width: 100%;
+}
+
+.parte10-1 {
+  width: 75%;
+  display: flex;
+}
+
+.parte10-2 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+/* PARTE 11  */
+.parte11 {
+  margin-top: 5rem;
+  background-color: #e57b72;
+}
+
+.parte11-1 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 25rem;
+}
+
+.parte11-1 h6 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+}
