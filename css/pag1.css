@@ -55,6 +55,54 @@ nav {
   text-decoration: underline;
 }
 
+/* RESPONSIVIDADE PARTE 1 - MENU */
+@media screen and (max-width: 550px) {
+  nav {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 2px solid #e57b72;
+    width: 100%;
+    height: 10vh;
+    background-color: #ffffff;
+    z-index: 99;
+  }
+  
+  .parte1-1 {
+    display: none;
+  }
+  
+  .parte1-2 {
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .parte1-2 ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+  
+  .parte1-2-2 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    color: #e57b72;
+    text-decoration: none;
+  }
+  
+  .parte1-2-2:hover {
+    text-decoration: underline;
+  }
+}
+
+/* CAPA PARA MOBILE */
+.parte2-capa{
+  display: none;
+}
+
 /* PARTE 2 */
 .parte2 {
   padding-top: 10vh;
@@ -69,6 +117,23 @@ nav {
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
+}
+
+/* RESPONSIVIDADE PARTE 2 */
+@media screen and (max-width: 550px) {
+  .parte2 {
+    display: none;
+  }
+
+  .parte2-capa{
+    display: flex;
+    width: 100%;
+  }
+
+  .parte2-capa-1 img{
+    width: 400px;
+    height: 50vh;
+  }
 }
 
 /* PARTE 3 */
@@ -105,6 +170,52 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+/* RESPONSIVIDADE PARTE 3 */
+@media screen and (max-width: 550px) {
+  .parte3 {
+    width: 100%;
+    margin-top: 1vh;
+  }
+  
+  .parte3-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .parte3-1-1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem 0 0rem 0;
+  }
+  
+  .parte3-1-1 p {
+    width: 300px;
+    text-align: justify;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 1rem 0 1rem 0;
+    color: #e57b72;
+  }
+  
+  .parte3-1-2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .parte3-1-2 img{
+    width: 350px;
+  }
 }
 
 /* PARTE 4 */
@@ -173,6 +284,84 @@ nav {
 
 .parte4-1-2-3 p:hover {
   color: #6aa9d6;
+}
+
+/* RESPONSIVIDADE PARTE 4 */
+@media screen and (max-width: 550px) {
+  .parte4 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .parte4-1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .parte4-1-1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .parte4-1-1 img{
+    width: 350px;
+    margin-top: 3rem;
+  }
+
+  .parte4-1-2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .parte4-1-2 h1 {
+    font-family: "Barriecito", cursive;
+    font-size: 30px;
+    font-weight: 400;
+    color: #e57b72;
+    margin-top: 3rem;
+  }
+  
+  .parte4-1-2 h2 {
+    margin-top: 0rem;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #e57b72;
+  }
+  
+  .parte4-1-2-3 button {
+    width: 250px;
+    height: 30px;
+    border: 1px solid #6aa9d6;
+    border-radius: 5rem;
+    background-color: #6aa9d6;
+  }
+
+  
+  .parte4-1-2-3 button:hover {
+    background-color: white;
+  }
+  
+  .parte4-1-2-3 p {
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  
+  .parte4-1-2-3 p:hover {
+    color: #6aa9d6;
+  }
 }
 
 /* PARTE 5 */
@@ -265,6 +454,70 @@ input {
   margin-left: -80%;
 }
 
+/* RESPONSIVIDADE PARTE 5 */
+@media screen and (max-width: 550px) {
+  .parte5 {
+    margin-top: 5rem;
+    width: 100%;
+    height: auto;
+    background-image: url(../img/fundo1.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content {
+    height: 350px;
+    width: 350px;
+    overflow: hidden;
+    position: relative; 
+  }
+
+  .slides {
+    display: flex;
+    width: 500%;
+    height: 100%;
+  }
+
+  .slide {
+    width: 20%;
+    transition: 0.6s;
+  }
+
+  .slide img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .navigation {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+  }
+
+  .navigation p{
+    display: flex;
+    justify-content: center;
+    color: #e57b72;
+    font-size: 13px;
+    font-weight: 700;
+  }
+
+  .bar {
+    width: 50px;
+    height: 17px;
+    border: 1px solid white;
+    margin: 6px;
+    cursor: pointer;
+    transition: 0.6s;
+    background-color: white;
+  }
+}
+
 /* PARTE 6 */
 .parte6 {
   width: 100%;
@@ -355,6 +608,109 @@ input {
   width: 250px;
 }
 
+/* RESPONSIVIDADE PARTE 6 */
+@media screen and (max-width: 550px) {
+  .parte6 {
+    width: 100%;
+    display: flex;
+    margin-top: 3rem;
+  }
+  
+  .parte6-1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .parte6-1-1-titulo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  
+  .parte6-1-1-titulo h2 {
+    font-family: "Barriecito", cursive;
+    font-size: 30px;
+    font-weight: 400;
+    color: #e57b72;
+    text-decoration: underline;
+    transform: rotate(0deg);
+    margin-bottom: 2rem;
+  }
+  
+  .parte6-1-1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+  }
+  
+  .parte6-1-1-fundadora p {
+    width: 350px;
+    text-align: justify;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #e57b72;
+  }
+  
+  .parte6-1-1 img {
+    width: 250px;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .parte6-1-2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  
+  .parte6-1-2 img {
+    border-radius: 1rem;
+  }
+  
+  .parte6-1-2-equipe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .parte6-1-2-equipe-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .parte6-1-2-equipe-1 h4 {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #e57b72;
+    text-decoration: underline;
+  }
+  
+  .parte6-1-2-equipe-1 p {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #e57b72;
+    width: 350px;
+    text-align: center;
+  }
+}
+
 /* PARTE 7 */
 .parte7 {
   width: 100%;
@@ -395,6 +751,52 @@ input {
   border-radius: 1rem;
 }
 
+/* RESPONSIVIDADE PARTE 7 */
+@media screen and (max-width: 550px) {
+  .parte7 {
+    width: 100%;
+    display: flex;
+    margin-top: 8rem;
+  }
+  
+  .parte7-1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+  }
+  
+  .parte7-1-1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  
+  }
+  
+  .parte7-1-1 h2 {
+    font-family: "Barriecito", cursive;
+    font-size: 25px;
+    font-weight: 400;
+    color: #e57b72;
+    text-decoration: underline;
+  }
+  
+  .parte7-1-2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+  }
+  
+  .parte7-1-2 .video-1 {
+    border-radius: 1rem;
+    width: 200px;
+    height: 200px;
+  }
+}
+
 /* PARTE 8 */
 .parte8 {
   width: 100%;
@@ -426,6 +828,50 @@ input {
   display: flex;
   flex-direction: row;
   gap: 5rem;
+}
+
+/* RESPONSIVIDADE PARTE 8 */
+@media screen and (max-width: 550px) {
+  .parte8 {
+    width: 100%;
+    margin-top: 5rem;
+  }
+  
+  .parte8-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .parte8-1-1 {
+    width: 80%;
+    border: 1px solid #e57b72;
+  }
+  
+  .parte8-1-2 h2 {
+    font-family: "Barriecito", cursive;
+    font-size: 28px;
+    font-weight: 400;
+    color: #e57b72;
+    text-decoration: underline;
+    margin: 0rem 0 0rem 0;
+  }
+  
+  .parte8-1-3 {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .parte8-1-3 img{
+    width: 100px;
+  }
+
+  .parte-8-mobile{
+    display: none;
+  }
+  
 }
 
 /* PARTE 9 - FOOTER */
@@ -492,4 +938,93 @@ input {
   font-size: 15px;
   font-weight: 500;
   color: white;
+}
+
+.parte11-mobile {
+  display: none;
+}
+
+/* RESPONSIVIDADE PARTE FOOTER */
+@media screen and (max-width: 550px) {
+  .parte9 {
+    border-top: 1px solid #e57b72;
+    margin-top: 3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .parte9-1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 3rem;
+  }
+  
+
+  .parte9-1-1 p{
+    width: 300px;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #e57b72;
+  }
+
+  /* PARTE 10 */
+  .parte10 {
+    width: 100%;
+    margin-top: 3rem;
+  }
+  
+  .parte10-1 {
+    width: 100%;
+    display: flex;
+  }
+  
+  .parte10-2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* PARTE 11  */
+  .parte11 {
+    display: none;
+  }
+
+  .parte11-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    border-top: 1px solid #e57b72;
+
+  }
+  
+  .parte11-1-mobile {
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .parte11-1-mobile h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    color: #e57b72;
+  }
+  
+  
 }
