@@ -118,6 +118,28 @@ nav {
     text-decoration: underline;
 }
 
+/* RESPONSIVIDADE PARTE TITULO*/
+@media screen and (max-width: 550px) {
+  .titulo{
+    width: 100%;
+    margin-top: 8rem;
+    display: flex;
+}
+
+.titulo-1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.titulo-1 h1{
+    font-family: "Barriecito", cursive;
+    font-size: 20px;
+    text-align: center;
+    color: #e57b72;
+    text-decoration: underline;
+}
+}
+
 /* PARTE 2 */
 .parte2{
     margin-top: 8rem;
@@ -170,7 +192,60 @@ nav {
 .parte2-1-1 button:hover{
   background-color: white;
 }
+/* RESPONSIVIDADE PARTE TITULO*/
+@media screen and (max-width: 550px) {
+  .parte2{
+    margin-top: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 
+.parte2-2{
+  margin: 112px 0 112px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.parte2-1{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.parte2-1-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.parte2-1-1 h4{
+  font-family: "Raleway", sans-serif;
+  font-size: 1.375rem;
+  font-weight: 700;
+}
+
+.parte2-1-1 p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 300;
+  color: black;
+}
+
+.parte2-1-1 button{
+  width: 10rem;
+  height: 1.875rem;
+  border: 0.0625rem solid #e57b72;
+  background-color: #e57b72;
+}
+
+.parte2-1-1 button:hover{
+  background-color: white;
+}
+}
 /* PARTE 9 - FOOTER */
 
 .parte9 {
