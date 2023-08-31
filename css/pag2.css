@@ -67,6 +67,7 @@ nav {
     height: 10vh;
     background-color: #ffffff;
     z-index: 99;
+    top: 0;
   }
   
   .parte1-1 {
@@ -134,6 +135,35 @@ nav {
 .item02 {
   grid-column: 3 / span 1;
   grid-row: 3 / span 1;
+}
+
+/* RESPONSIVIDADE PARTE FOOTER */
+@media screen and (max-width: 550px) {
+  .principal {
+    padding: 0;
+    display: flex;
+    margin-top: 7rem;
+  }
+  
+  .galeria {
+    display: flex;
+ 
+  }
+  
+  .imgGaleria {
+    width: 100%;
+    height: auto;
+    display: flex;
+  }
+  
+  .itemGaleria {
+    display: flex;
+  }
+  
+  .item02 {
+    display: none;
+  }
+  
 }
 
 /* FOOTER */
