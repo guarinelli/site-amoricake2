@@ -219,10 +219,18 @@ nav {
   display: flex;
 }
 
+.navigation p{
+  display: flex;
+  justify-content: center;
+  color: #e57b72;
+  font-size: 15px;
+  font-weight: 700;
+}
+
 .bar {
-  width: 70px;
+  width: 80px;
   height: 17px;
-  border: 2px solid white;
+  border: 1px solid white;
   margin: 6px;
   cursor: pointer;
   transition: 0.6s;
