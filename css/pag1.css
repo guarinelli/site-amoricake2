@@ -121,9 +121,9 @@ nav {
 
 /* RESPONSIVIDADE PARTE 2 */
 @media screen and (max-width: 550px) {
-  .parte2 {
+  /* .parte2 {
     display: none;
-  }
+  } */
 
   .parte2-capa{
     display: flex;
