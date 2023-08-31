@@ -55,6 +55,50 @@ nav {
 .parte1-2-2:hover {
   text-decoration: underline;
 }
+
+/* RESPONSIVIDADE PARTE 1 - MENU */
+@media screen and (max-width: 550px) {
+  nav {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 2px solid #e57b72;
+    width: 100%;
+    height: 10vh;
+    background-color: #ffffff;
+    z-index: 99;
+  }
+  
+  .parte1-1 {
+    display: none;
+  }
+  
+  .parte1-2 {
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .parte1-2 ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+  
+  .parte1-2-2 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    color: #e57b72;
+    text-decoration: none;
+  }
+  
+  .parte1-2-2:hover {
+    text-decoration: underline;
+  }
+}
+
 /* TITULO */
 .titulo{
     width: 100%;
@@ -191,4 +235,87 @@ nav {
   font-size: 15px;
   font-weight: 500;
   color: white;
+}
+
+/* RESPONSIVIDADE PARTE FOOTER */
+@media screen and (max-width: 550px) {
+  .parte9 {
+    border-top: 1px solid #e57b72;
+    margin-top: 3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .parte9-1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 3rem;
+  }
+  
+
+  .parte9-1-1 p{
+    width: 300px;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #e57b72;
+  }
+
+  /* PARTE 10 */
+  .parte10 {
+    width: 100%;
+    margin-top: 3rem;
+  }
+  
+  .parte10-1 {
+    width: 100%;
+    display: flex;
+  }
+  
+  .parte10-2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* PARTE 11  */
+  .parte11 {
+    display: none;
+  }
+
+  .parte11-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    border-top: 1px solid #e57b72;
+
+  }
+  
+  .parte11-1-mobile {
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .parte11-1-mobile h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    color: #e57b72;
+  }
 }

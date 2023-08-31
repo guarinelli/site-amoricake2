@@ -55,6 +55,49 @@ nav {
   text-decoration: underline;
 }
 
+/* RESPONSIVIDADE PARTE 1 - MENU */
+@media screen and (max-width: 550px) {
+  nav {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 2px solid #e57b72;
+    width: 100%;
+    height: 10vh;
+    background-color: #ffffff;
+    z-index: 99;
+  }
+  
+  .parte1-1 {
+    display: none;
+  }
+  
+  .parte1-2 {
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .parte1-2 ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+  
+  .parte1-2-2 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    color: #e57b72;
+    text-decoration: none;
+  }
+  
+  .parte1-2-2:hover {
+    text-decoration: underline;
+  }
+}
+
 /* PARTE 2*/
 .parte-info{
     display: flex;
