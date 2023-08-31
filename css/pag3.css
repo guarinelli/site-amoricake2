@@ -55,8 +55,8 @@ nav {
   text-decoration: underline;
 }
 
-/* PARTE 1 */
-.parte1{
+/* PARTE 2*/
+.parte-info{
     display: flex;
     flex-direction: row;
     justify-content: center;
