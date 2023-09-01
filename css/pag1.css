@@ -98,10 +98,6 @@ nav {
   }
 }
 
-/* CAPA PARA MOBILE */
-.parte2-capa{
-  display: none;
-}
 
 /* PARTE 2 */
 .parte2 {
@@ -119,20 +115,27 @@ nav {
   background-size: cover;
 }
 
+/* CAPA PARA MOBILE */
+.parte2-capa{
+  display: none;
+}
+
 /* RESPONSIVIDADE PARTE 2 */
 @media screen and (max-width: 550px) {
-  /* .parte2 {
+  .parte2 {
     display: none;
-  } */
+  } 
 
   .parte2-capa{
     display: flex;
     width: 100%;
+    height: 60vh;
   }
 
   .parte2-capa-1 img{
-    width: 25rem;
-    height: 50vh;
+    width: 400px;
+    max-width: 600px;
+    height: 60vh;
   }
 }
 
@@ -777,7 +780,7 @@ input {
   
   .parte7-1-1 h2 {
     font-family: "Barriecito", cursive;
-    font-size: 1.5625rem;
+    font-size: 30px;
     font-weight: 400;
     color: #e57b72;
     text-decoration: underline;
