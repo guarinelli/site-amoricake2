@@ -44,7 +44,7 @@ nav {
 }
 
 .parte1-2-2 {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Work Sans', sans-serif;
   font-weight: 500;
   font-size: 18px;
   color: #e57b72;
@@ -87,7 +87,7 @@ nav {
   }
   
   .parte1-2-2 {
-    font-family: "Raleway", sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-weight: 500;
     font-size: 13px;
     color: #e57b72;
@@ -137,7 +137,7 @@ nav {
   grid-row: 3 / span 1;
 }
 
-/* RESPONSIVIDADE PARTE FOOTER */
+/* RESPONSIVIDADE PARTE MAIN */
 @media screen and (max-width: 550px) {
   .principal {
     padding: 0;
@@ -166,9 +166,11 @@ nav {
   
 }
 
-/* FOOTER */
+/* PARTE 9 - FOOTER */
+
 .parte9 {
   border-top: 1px solid #e57b72;
+  margin-top: 5rem;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -184,7 +186,7 @@ nav {
 }
 
 .parte9-1-1 {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Work Sans', sans-serif;
   font-size: 20px;
   font-weight: 500;
   color: #e57b72;
@@ -224,10 +226,14 @@ nav {
 }
 
 .parte11-1 h6 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Work Sans', sans-serif;
   font-size: 15px;
   font-weight: 500;
   color: white;
+}
+
+.parte11-mobile {
+  display: none;
 }
 
 /* RESPONSIVIDADE PARTE FOOTER */
@@ -255,7 +261,7 @@ nav {
   .parte9-1-1 p{
     width: 300px;
     text-align: center;
-    font-family: "Raleway", sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: 15px;
     font-weight: 500;
     color: #e57b72;
@@ -306,7 +312,7 @@ nav {
   }
   
   .parte11-1-mobile h6 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: 10px;
     font-weight: 500;
     color: #e57b72;

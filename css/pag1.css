@@ -44,7 +44,7 @@ nav {
 }
 
 .parte1-2-2 {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Work Sans', sans-serif;
   font-weight: 500;
   font-size: 18px;
   color: #e57b72;
@@ -86,7 +86,7 @@ nav {
   }
   
   .parte1-2-2 {
-    font-family: "Raleway", sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-weight: 500;
     font-size: 13px;
     color: #e57b72;
@@ -157,7 +157,7 @@ nav {
 .parte3-1-1 p {
   width: 500px;
   text-align: justify;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Work Sans', sans-serif;
   font-size: 20px;
   font-weight: 500;
   margin: 1rem 0 1rem 0;
@@ -198,7 +198,7 @@ nav {
   .parte3-1-1 p {
     width: 300px;
     text-align: justify;
-    font-family: "Raleway", sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: 15px;
     font-weight: 500;
     margin: 1rem 0 1rem 0;
@@ -256,8 +256,8 @@ nav {
 }
 
 .parte4-1-2 h2 {
-  margin-top: 3rem;
-  font-family: "Raleway", sans-serif;
+  margin-top: 1rem;
+  font-family: 'Work Sans', sans-serif;
   font-size: 20px;
   font-weight: 500;
   color: #e57b72;
@@ -277,7 +277,7 @@ nav {
 
 .parte4-1-2-3 p {
   color: white;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Work Sans', sans-serif;
   font-size: 20px;
   font-weight: 500;
 }
@@ -333,7 +333,7 @@ nav {
   
   .parte4-1-2 h2 {
     margin-top: 0rem;
-    font-family: "Raleway", sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: 15px;
     font-weight: 500;
     color: #e57b72;
@@ -354,7 +354,7 @@ nav {
   
   .parte4-1-2-3 p {
     color: white;
-    font-family: "Raleway", sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: 15px;
     font-weight: 500;
   }
@@ -411,6 +411,7 @@ nav {
 .navigation p{
   display: flex;
   justify-content: center;
+  font-family: 'Work Sans', sans-serif;
   color: #e57b72;
   font-size: 15px;
   font-weight: 700;
@@ -418,7 +419,7 @@ nav {
 
 .bar {
   width: 80px;
-  height: 17px;
+  height: 20px;
   border: 1px solid white;
   margin: 6px;
   cursor: pointer;
@@ -502,6 +503,7 @@ input {
   .navigation p{
     display: flex;
     justify-content: center;
+    font-family: 'Work Sans', sans-serif;
     color: #e57b72;
     font-size: 13px;
     font-weight: 700;
@@ -509,7 +511,7 @@ input {
 
   .bar {
     width: 50px;
-    height: 17px;
+    height: 20px;
     border: 1px solid white;
     margin: 6px;
     cursor: pointer;
@@ -559,7 +561,7 @@ input {
 .parte6-1-1-fundadora p {
   width: 450px;
   text-align: justify;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Work Sans', sans-serif;
   font-size: 18px;
   font-weight: 400;
   color: #e57b72;
@@ -593,7 +595,7 @@ input {
 }
 
 .parte6-1-2-equipe-1 h4 {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Work Sans', sans-serif;
   font-size: 18px;
   font-weight: 700;
   color: #e57b72;
@@ -601,7 +603,7 @@ input {
 }
 
 .parte6-1-2-equipe-1 p {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Work Sans', sans-serif;
   font-size: 18px;
   font-weight: 400;
   color: #e57b72;
@@ -653,7 +655,7 @@ input {
   .parte6-1-1-fundadora p {
     width: 350px;
     text-align: justify;
-    font-family: "Raleway", sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: 18px;
     font-weight: 400;
     color: #e57b72;
@@ -694,7 +696,7 @@ input {
   }
   
   .parte6-1-2-equipe-1 h4 {
-    font-family: "Raleway", sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #e57b72;
@@ -702,7 +704,7 @@ input {
   }
   
   .parte6-1-2-equipe-1 p {
-    font-family: "Raleway", sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: 18px;
     font-weight: 400;
     color: #e57b72;
@@ -894,7 +896,7 @@ input {
 }
 
 .parte9-1-1 {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Work Sans', sans-serif;
   font-size: 20px;
   font-weight: 500;
   color: #e57b72;
@@ -934,7 +936,7 @@ input {
 }
 
 .parte11-1 h6 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Work Sans', sans-serif;
   font-size: 15px;
   font-weight: 500;
   color: white;
@@ -969,7 +971,7 @@ input {
   .parte9-1-1 p{
     width: 300px;
     text-align: center;
-    font-family: "Raleway", sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: 15px;
     font-weight: 500;
     color: #e57b72;
@@ -1020,7 +1022,7 @@ input {
   }
   
   .parte11-1-mobile h6 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: 10px;
     font-weight: 500;
     color: #e57b72;

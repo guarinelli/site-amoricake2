@@ -308,7 +308,7 @@ main {
 }
 
 .parte9-1-1 {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Work Sans', sans-serif;
   font-size: 20px;
   font-weight: 500;
   color: #e57b72;
@@ -348,10 +348,14 @@ main {
 }
 
 .parte11-1 h6 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Work Sans', sans-serif;
   font-size: 15px;
   font-weight: 500;
   color: white;
+}
+
+.parte11-mobile {
+  display: none;
 }
 
 /* RESPONSIVIDADE PARTE FOOTER */
@@ -379,7 +383,7 @@ main {
   .parte9-1-1 p{
     width: 300px;
     text-align: center;
-    font-family: "Raleway", sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: 15px;
     font-weight: 500;
     color: #e57b72;
@@ -430,7 +434,7 @@ main {
   }
   
   .parte11-1-mobile h6 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: 10px;
     font-weight: 500;
     color: #e57b72;
