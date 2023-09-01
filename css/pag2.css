@@ -317,4 +317,155 @@ nav {
     font-weight: 500;
     color: #e57b72;
   }
+/* PARTE 9 - FOOTER */
+
+.parte9 {
+  border-top: 1px solid #e57b72;
+  margin-top: 5rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.parte9-1 {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.parte9-1-1 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #e57b72;
+}
+
+/* PARTE 10 */
+.parte10 {
+  width: 100%;
+}
+
+.parte10-1 {
+  width: 75%;
+  display: flex;
+}
+
+.parte10-2 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+/* PARTE 11  */
+.parte11 {
+  margin-top: 5rem;
+  background-color: #e57b72;
+}
+
+.parte11-1 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 25rem;
+}
+
+.parte11-1 h6 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  color: white;
+}
+
+.parte11-mobile {
+  display: none;
+}
+
+/* RESPONSIVIDADE PARTE FOOTER */
+@media screen and (max-width: 550px) {
+  .parte9 {
+    border-top: 0.0625rem solid #e57b72;
+    margin-top: 3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .parte9-1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 3rem;
+  }
+  
+
+  .parte9-1-1 p{
+    width: 18.75rem;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    color: #e57b72;
+  }
+
+  /* PARTE 10 */
+  .parte10 {
+    width: 100%;
+    margin-top: 3rem;
+  }
+  
+  .parte10-1 {
+    width: 100%;
+    display: flex;
+  }
+  
+  .parte10-2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* PARTE 11  */
+  .parte11 {
+    display: none;
+  }
+
+  .parte11-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    border-top: 0.0625rem solid #e57b72;
+
+  }
+  
+  .parte11-1-mobile {
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .parte11-1-mobile h6 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 0.625rem;
+    font-weight: 500;
+    color: #e57b72;
+  }
 }

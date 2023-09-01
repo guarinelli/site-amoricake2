@@ -268,7 +268,7 @@ nav {
 
 .parte9-1-1 {
   font-family: 'Work Sans', sans-serif;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 500;
   color: #e57b72;
 }
@@ -308,7 +308,7 @@ nav {
 
 .parte11-1 h6 {
   font-family: 'Work Sans', sans-serif;
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 500;
   color: white;
 }
@@ -320,7 +320,7 @@ nav {
 /* RESPONSIVIDADE PARTE FOOTER */
 @media screen and (max-width: 550px) {
   .parte9 {
-    border-top: 1px solid #e57b72;
+    border-top: 0.0625rem solid #e57b72;
     margin-top: 3rem;
     width: 100%;
     display: flex;
@@ -340,10 +340,10 @@ nav {
   
 
   .parte9-1-1 p{
-    width: 300px;
+    width: 18.75rem;
     text-align: center;
     font-family: 'Work Sans', sans-serif;
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-weight: 500;
     color: #e57b72;
   }
@@ -378,7 +378,7 @@ nav {
     justify-content: center;
     align-items: center;
     margin-top: 1rem;
-    border-top: 1px solid #e57b72;
+    border-top: 0.0625rem solid #e57b72;
 
   }
   
@@ -394,7 +394,7 @@ nav {
   
   .parte11-1-mobile h6 {
     font-family: 'Work Sans', sans-serif;
-    font-size: 10px;
+    font-size: 0.625rem;
     font-weight: 500;
     color: #e57b72;
   }
