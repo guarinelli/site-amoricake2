@@ -737,13 +737,15 @@ input {
   width: 100%;
   display: flex;
   margin-top: 8rem;
+  background-attachment: fixed;
+  
 }
 
 .parte7-1 {
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 4rem;
+  
 }
 
 .parte7-1-1 {
@@ -760,7 +762,12 @@ input {
   text-decoration: underline;
 }
 
+.container-slider {
+ display: none;
+}
+
 .parte7-1-2 {
+  margin-top: 5rem;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -784,7 +791,7 @@ input {
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 4rem;
+    gap: 1rem;
   }
   
   .parte7-1-1 {
@@ -801,21 +808,57 @@ input {
     color: #e57b72;
     text-decoration: underline;
   }
-  
-  .parte7-1-2 {
-    width: 100%;
+
+  .parte7-1-2{
+    display: none;
+  }
+
+  .container-slider {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    width: 100%;
+    min-height: 50vh;
     align-items: center;
-    gap: 3rem;
+    justify-content: center;
+    gap: 1rem;
   }
   
-  .parte7-1-2 .video-1 {
-    border-radius: 1rem;
-    width: 12.5rem;
-    height: 12.5rem;
+  .container-images {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
   }
+  
+  .slider {
+    opacity: 0;
+    transition: opacity .2s;
+    position: absolute;
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .on {
+    opacity: 1;
+  }
+  
+  #prev-button, #next-button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  #prev-button img, #next-button img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  #prev-button {
+    transform: rotate(180deg);
+  }
+  
 }
 
 /* PARTE 8 */
