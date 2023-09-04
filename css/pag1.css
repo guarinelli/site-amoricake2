@@ -736,16 +736,13 @@ input {
 .parte7 {
   width: 100%;
   display: flex;
-  margin-top: 8rem;
-  background-attachment: fixed;
-  
+  margin-top: 8rem;  
 }
 
 .parte7-1 {
   width: 100%;
   display: flex;
   flex-direction: column;
-  
 }
 
 .parte7-1-1 {
