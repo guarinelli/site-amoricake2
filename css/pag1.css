@@ -19,6 +19,7 @@ nav {
   height: 10vh;
   background-color: #ffffff;
   z-index: 99;
+  top: 0;
 }
 
 .parte1-1 {
