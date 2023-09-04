@@ -809,7 +809,7 @@ input {
     text-decoration: underline;
   }
 
-  .parte7-1-2{
+  .parte7-1-2 {
     display: none;
   }
 
@@ -827,7 +827,7 @@ input {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 500px;
+    width: 350px;
   }
   
   .slider {
@@ -857,8 +857,7 @@ input {
   
   #prev-button {
     transform: rotate(180deg);
-  }
-  
+  } 
 }
 
 /* PARTE 8 */
