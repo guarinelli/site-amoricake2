@@ -800,7 +800,7 @@ input {
   
   .parte7-1-1 h2 {
     font-family: "Barriecito", cursive;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 400;
     color: #e57b72;
     text-decoration: underline;
@@ -894,7 +894,7 @@ input {
 @media screen and (max-width: 550px) {
   .parte8 {
     width: 100%;
-    margin-top: 5rem;
+    margin-top: 1rem;
   }
   
   .parte8-1 {
@@ -911,7 +911,7 @@ input {
   
   .parte8-1-2 h2 {
     font-family: "Barriecito", cursive;
-    font-size: 1.75rem;
+    font-size: 2.1875rem;
     font-weight: 400;
     color: #e57b72;
     text-decoration: underline;
@@ -925,7 +925,7 @@ input {
   }
 
   .parte8-1-3 img{
-    width: 6.25rem;
+    width: 130px;
   }
 
   .parte-8-mobile{
@@ -953,11 +953,21 @@ input {
   align-items: center;
 }
 
-.parte9-1-1 {
+
+.parte9-1-1 p{
+  text-align: justify;
   font-family: 'Work Sans', sans-serif;
-  font-size: 1.25rem;
+  font-size: 20px;
   font-weight: 500;
   color: #e57b72;
+}
+
+.parte9-endereco{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
 }
 
 /* PARTE 10 */
@@ -1027,12 +1037,19 @@ input {
   
 
   .parte9-1-1 p{
-    width: 18.75rem;
-    text-align: center;
+    text-align: justify;
     font-family: 'Work Sans', sans-serif;
     font-size: 0.9375rem;
     font-weight: 500;
     color: #e57b72;
+  }
+
+  .parte9-endereco{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
   }
 
   /* PARTE 10 */
