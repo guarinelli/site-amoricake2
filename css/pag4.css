@@ -9,6 +9,15 @@ html {
   background-color: #f3f3f3;
 }
 
+#btnTop {
+  position: fixed;
+  right: 1.25rem;
+  bottom: 3.125rem;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+
 /* PARTE 1 */
 nav {
   position: fixed;
@@ -266,11 +275,21 @@ nav {
   align-items: center;
 }
 
-.parte9-1-1 {
+
+.parte9-1-1 p{
+  text-align: justify;
   font-family: 'Work Sans', sans-serif;
-  font-size: 1.25rem;
+  font-size: 20px;
   font-weight: 500;
   color: #e57b72;
+}
+
+.parte9-endereco{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
 }
 
 /* PARTE 10 */
@@ -340,12 +359,19 @@ nav {
   
 
   .parte9-1-1 p{
-    width: 18.75rem;
-    text-align: center;
+    text-align: justify;
     font-family: 'Work Sans', sans-serif;
     font-size: 0.9375rem;
     font-weight: 500;
     color: #e57b72;
+  }
+
+  .parte9-endereco{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
   }
 
   /* PARTE 10 */

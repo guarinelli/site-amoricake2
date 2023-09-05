@@ -9,6 +9,15 @@ html {
   background-color: #f3f3f3;
 }
 
+#btnTop {
+  position: fixed;
+  right: 1.25rem;
+  bottom: 3.125rem;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+
 /* PARTE 1 */
 nav {
   position: fixed;
@@ -185,162 +194,21 @@ nav {
   align-items: center;
 }
 
-.parte9-1-1 {
+
+.parte9-1-1 p{
+  text-align: justify;
   font-family: 'Work Sans', sans-serif;
   font-size: 20px;
   font-weight: 500;
   color: #e57b72;
 }
 
-/* PARTE 10 */
-.parte10 {
-  width: 100%;
-}
-
-.parte10-1 {
-  width: 75%;
-  display: flex;
-}
-
-.parte10-2 {
-  width: 100%;
+.parte9-endereco{
   display: flex;
   flex-direction: row;
-  gap: 3rem;
   justify-content: center;
   align-items: center;
-}
-
-/* PARTE 11  */
-.parte11 {
-  margin-top: 5rem;
-  background-color: #e57b72;
-}
-
-.parte11-1 {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 25rem;
-}
-
-.parte11-1 h6 {
-  font-family: 'Work Sans', sans-serif;
-  font-size: 15px;
-  font-weight: 500;
-  color: white;
-}
-
-.parte11-mobile {
-  display: none;
-}
-
-/* RESPONSIVIDADE PARTE FOOTER */
-@media screen and (max-width: 550px) {
-  .parte9 {
-    border-top: 1px solid #e57b72;
-    margin-top: 3rem;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  
-  .parte9-1 {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    margin-top: 3rem;
-  }
-  
-
-  .parte9-1-1 p{
-    width: 300px;
-    text-align: center;
-    font-family: 'Work Sans', sans-serif;
-    font-size: 15px;
-    font-weight: 500;
-    color: #e57b72;
-  }
-
-  /* PARTE 10 */
-  .parte10 {
-    width: 100%;
-    margin-top: 3rem;
-  }
-  
-  .parte10-1 {
-    width: 100%;
-    display: flex;
-  }
-  
-  .parte10-2 {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    gap: 3rem;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  /* PARTE 11  */
-  .parte11 {
-    display: none;
-  }
-
-  .parte11-mobile {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 1rem;
-    border-top: 1px solid #e57b72;
-
-  }
-  
-  .parte11-1-mobile {
-    margin-top: 1rem;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-  }
-  
-  .parte11-1-mobile h6 {
-    font-family: 'Work Sans', sans-serif;
-    font-size: 10px;
-    font-weight: 500;
-    color: #e57b72;
-  }
-/* PARTE 9 - FOOTER */
-
-.parte9 {
-  border-top: 1px solid #e57b72;
-  margin-top: 5rem;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.parte9-1 {
-  width: 80%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.parte9-1-1 {
-  font-family: 'Work Sans', sans-serif;
-  font-size: 1.25rem;
-  font-weight: 500;
-  color: #e57b72;
+  gap: 10rem;
 }
 
 /* PARTE 10 */
@@ -410,12 +278,19 @@ nav {
   
 
   .parte9-1-1 p{
-    width: 18.75rem;
-    text-align: center;
+    text-align: justify;
     font-family: 'Work Sans', sans-serif;
     font-size: 0.9375rem;
     font-weight: 500;
     color: #e57b72;
+  }
+
+  .parte9-endereco{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
   }
 
   /* PARTE 10 */

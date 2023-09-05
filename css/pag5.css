@@ -9,6 +9,15 @@ html {
   background-color: #f3f3f3;
 }
 
+#btnTop {
+  position: fixed;
+  right: 1.25rem;
+  bottom: 3.125rem;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+
 /* PARTE 1 */
 nav {
   top: 0;
@@ -270,7 +279,7 @@ main {
     flex-direction: column;
     z-index: 5;
     padding-right: 5rem;
-    max-height: 10rem;
+    max-height: 15rem;
     overflow-y: scroll;
     flex-wrap: nowrap;
   }
@@ -292,6 +301,7 @@ main {
 
 .parte9 {
   border-top: 1px solid #e57b72;
+  margin-top: 5rem;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -306,11 +316,21 @@ main {
   align-items: center;
 }
 
-.parte9-1-1 {
+
+.parte9-1-1 p{
+  text-align: justify;
   font-family: 'Work Sans', sans-serif;
-  font-size: 1.25rem;
+  font-size: 20px;
   font-weight: 500;
   color: #e57b72;
+}
+
+.parte9-endereco{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
 }
 
 /* PARTE 10 */
@@ -361,6 +381,7 @@ main {
 @media screen and (max-width: 550px) {
   .parte9 {
     border-top: 0.0625rem solid #e57b72;
+    margin-top: 0;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -379,12 +400,19 @@ main {
   
 
   .parte9-1-1 p{
-    width: 18.75rem;
-    text-align: center;
+    text-align: justify;
     font-family: 'Work Sans', sans-serif;
     font-size: 0.9375rem;
     font-weight: 500;
     color: #e57b72;
+  }
+
+  .parte9-endereco{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
   }
 
   /* PARTE 10 */
