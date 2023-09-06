@@ -1,38 +1,38 @@
-const slider = document.querySelectorAll('.sliderTime');
-const btnPrev = document.getElementById('prev-button');
-const btnNext = document.getElementById('next-button');
+const sliderTime = document.querySelectorAll('.sliderTime');
+const btnPrevTime = document.getElementById('prev-button-time');
+const btnNextTime = document.getElementById('next-button-time');
 
 let currentSlide = 0;
 
-function hideSlider() {
-  slider.forEach(item => item.classList.remove('on'))
+function hideSliderTime() {
+  sliderTime.forEach(item => item.classList.remove('on'))
 }
 
-function showSlider() {
-  slider[currentSlide].classList.add('on')
+function showSliderTime() {
+  sliderTime[currentSlide].classList.add('on')
 }
 
-function nextSlider() {
-  hideSlider()
-  if(currentSlide === slider.length -1) {
+function nextSliderTime() {
+  hideSliderTime()
+  if(currentSlide === sliderTime.length -1) {
     currentSlide = 0
   } else {
     currentSlide++
   }
-  showSlider()
+  showSliderTime()
 }
 
-function prevSlider() {
-  hideSlider()
+function prevSliderTime() {
+  hideSliderTime()
   if(currentSlide === 0) {
-    currentSlide = slider.length -1
+    currentSlide = sliderTime.length -1
   } else {
     currentSlide--
   }
-  showSlider()
+  showSliderTime()
 }
 
-btnNext.addEventListener('click', nextSlider)
-btnPrev.addEventListener('click', prevSlider)
+btnNextTime.addEventListener('click', nextSliderTime)
+btnPrevTime.addEventListener('click', prevSliderTime)
 
-setInterval(nextSlider, 8000)
+// setInterval(nextSliderTime, 8000)

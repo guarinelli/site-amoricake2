@@ -709,67 +709,86 @@ input {
 
   /* TIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIME */
 
-.container-slider-time {
-  display: flex;
-  width: 100%;
-  min-height: 70vh;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
+  .container-slider-time {
+    display: flex;
+    width: 100%;
+    min-height: 70vh;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .container-images-time {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+  }
+  
+  .sliderTime {
+    opacity: 0;
+    transition: opacity 0.2s;
+    position: absolute;
+    width: 100%;
+    display: flex;   /* Novo estilo */
+    flex-direction: column;   /* Novo estilo */
+    gap: 1rem;   /* Novo estilo */
+  }
+  
+  .sliderTime img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .box-title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .box-title h3 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #e57b72;
+    text-decoration: underline;
+    margin-bottom: 1rem;
+  }
+
+  .box-title p{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #e57b72;
+  }
+  
+  .on {
+    opacity: 1;
+  }
+  
+  #prev-button-time, #next-button-time {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  #prev-button-time img, #next-button-time img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  #prev-button-time {
+    transform: rotate(180deg);
+  }
 }
-
-.container-images-time {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 300px;
-}
-
-.sliderTime {
-  opacity: 0;
-  transition: opacity 0.2s;
-  position: absolute;
-  width: 100%;
-  display: flex;   /* Novo estilo */
-  flex-direction: column;   /* Novo estilo */
-  gap: 1rem;   /* Novo estilo */
-}
-
-.sliderTime img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 10px;
-}
-
-.box-title {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-}
-
-.box-title h3{
-  font-family: 'Work Sans', sans-serif;
-  font-size: 1.125rem;
-  font-weight: 700;
-  color: #e57b72;
-  margin-bottom: 1rem;
-
-}
-
-.box-title p{
-  font-family: 'Work Sans', sans-serif;
-  font-size: 13px;
-  font-weight: 400;
-  color: #e57b72;
-
-}
-
-
 /* TIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIME */
 
-}
+
 
 /* PARTE 7 */
 .parte7 {
