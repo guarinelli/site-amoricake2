@@ -637,6 +637,11 @@ input {
   width: 15.625rem;
 }
 
+.container-slider-time{
+  display: none;
+}
+
+
 /* RESPONSIVIDADE PARTE 6 */
 @media screen and (max-width: 550px) {
   .parte6 {
@@ -678,6 +683,10 @@ input {
     align-items: center;
     gap: 3rem;
   }
+
+  .foto-fundadora{
+    display: none;
+  }
   
   .parte6-1-1-fundadora p {
     width: 21.875rem;
@@ -695,49 +704,71 @@ input {
   }
   
   .parte6-1-2 {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 1rem;
+    display: none;
   }
-  
-  .parte6-1-2 img {
-    border-radius: 1rem;
-  }
-  
-  .parte6-1-2-equipe {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-  }
-  
-  .parte6-1-2-equipe-1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-  }
-  
-  .parte6-1-2-equipe-1 h4 {
-    font-family: 'Work Sans', sans-serif;
-    font-size: 1.125rem;
-    font-weight: 700;
-    color: #e57b72;
-    text-decoration: underline;
-  }
-  
-  .parte6-1-2-equipe-1 p {
-    font-family: 'Work Sans', sans-serif;
-    font-size: 1.125rem;
-    font-weight: 400;
-    color: #e57b72;
-    width: 21.875rem;
-    text-align: center;
-  }
+
+  /* TIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIME */
+
+.container-slider-time {
+  display: flex;
+  width: 100%;
+  min-height: 70vh;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.container-images-time {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+}
+
+.sliderTime {
+  opacity: 0;
+  transition: opacity 0.2s;
+  position: absolute;
+  width: 100%;
+  display: flex;   /* Novo estilo */
+  flex-direction: column;   /* Novo estilo */
+  gap: 1rem;   /* Novo estilo */
+}
+
+.sliderTime img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.box-title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.box-title h3{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: #e57b72;
+  margin-bottom: 1rem;
+
+}
+
+.box-title p{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #e57b72;
+
+}
+
+
+/* TIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIME */
+
 }
 
 /* PARTE 7 */
@@ -789,7 +820,7 @@ input {
   .parte7 {
     width: 100%;
     display: flex;
-    margin-top: 8rem;
+    margin-top: 1rem;
   }
   
   .parte7-1 {
