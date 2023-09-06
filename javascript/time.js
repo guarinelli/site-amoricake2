@@ -1,4 +1,4 @@
-const sliderTime = document.querySelectorAll('.sliderTime');
+const slider = document.querySelectorAll('.sliderTime');
 const btnPrevTime = document.getElementById('prev-button-time');
 const btnNextTime = document.getElementById('next-button-time');
 
@@ -35,4 +35,4 @@ function prevSliderTime() {
 btnNextTime.addEventListener('click', nextSliderTime)
 btnPrevTime.addEventListener('click', prevSliderTime)
 
-// setInterval(nextSliderTime, 8000)
+setInterval(nextSlider, 8000)
